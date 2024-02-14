@@ -24,26 +24,25 @@ const Hero = () => {
                     Al Hilal Data Services - FZCO
                   </h2>
 
-                <p className='mt-4 text-gray-400 text-2xl'>
-                  Efficient Data Solutions for Your Business
-                </p>
+                  <p className='mt-4 text-gray-400 text-2xl'>
+                    Efficient Data Solutions for Your Business
+                  </p>
                 </Reveal>
 
                 <Reveal>
-
-                <Link
-                  href='#'
-                  className='mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400'
+                  <Link
+                    href='mailto:alhilal.dataservices@gmail.com'
+                    className='mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400'
                   >
-                  Email Us
-                </Link>
-                <Link
-                  href='#'
-                  className='ml-8 mt-8 inline-block rounded bg-green-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400'
+                    Email Us
+                  </Link>
+                  <Link
+                    href='#'
+                    className='ml-8 mt-8 inline-block rounded bg-green-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400'
                   >
-                  Whatsapp
-                </Link>
-                  </Reveal>
+                    Whatsapp
+                  </Link>
+                </Reveal>
               </div>
             </div>
           </div>
