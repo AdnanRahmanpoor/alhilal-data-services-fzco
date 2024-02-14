@@ -38,14 +38,14 @@ const Hero = () => {
                     Email Us
                   </Link>
                 </Reveal>
-                <Reveal>
+                {/* <Reveal>
                   <Link
                     href='#'
                     className='ml-8 mt-8 inline-block rounded bg-green-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400'
                   >
                     Whatsapp
                   </Link>
-                </Reveal>
+                </Reveal> */}
               </div>
             </div>
           </div>

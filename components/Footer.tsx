@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className='bg-white'>
       <div className='mx-auto max-w-screen-xl px-4 pb-6 sm:px-6 lg:px-8 '>
         {/* <div className='grid grid-cols-1 gap-8 lg:grid-cols-3'> */}
-        <div className="flex flex-col">
+        <div className='flex flex-col lg:flex-row'>
           <div>
             <div className='flex justify-center text-teal-600 sm:justify-start'>
               <span className='text-xl font-black'>AlHilal DS FZCO</span>
@@ -128,7 +128,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='grid grid-cols-1 gap-8 justify-items-center  sm:grid-cols-2 md:grid-cols-2 lg:col-span-2'>
+          <div className='grid grid-cols-1 gap-8 md:justify-items-end sm:justify-items-center  sm:grid-cols-2 md:grid-cols-2 lg:col-span-2'>
             <div className='text-center sm:text-left'>
               <p className='text-lg font-medium text-gray-900'></p>
 
@@ -172,7 +172,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='text-center sm:text-left'>
+            <div className='text-center sm:text-left lg:ml-20'>
               <p className='text-lg font-medium text-gray-900'>Contact Us</p>
 
               <ul className='mt-8 space-y-4 text-sm'>
