@@ -197,7 +197,7 @@ const Footer = () => {
                     </svg>
 
                     <span className='flex-1 text-gray-700'>
-                      alhilal.dataservices@gmail.com
+                      mailto:alhilal.dataservices@gmail.com
                     </span>
                   </a>
                 </li>
