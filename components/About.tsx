@@ -1,17 +1,21 @@
+import DataImg from '../public/data.jpg';
+
 const About = () => {
   return (
     <>
       <section className='bg-[#ced6e1]'>
-        <div className='mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8'>
+        <div className='mx-auto max-w-screen-xl px-4 py-2 sm:px-6 sm:py-24 lg:px-8'>
           <div className='max-w-3xl'>
-            <h2 className='text-3xl font-bold sm:text-4xl text-black'>About Us</h2>
+            <h2 className='text-3xl font-bold sm:text-4xl text-black'>
+              About Us
+            </h2>
           </div>
 
           <div className='mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16'>
             <div className='relative h-64 overflow-hidden sm:h-80 lg:h-full'>
               <img
-                alt='Party'
-                src='https://images.unsplash.com/photo-1496843916299-590492c751f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80'
+                alt='laptop'
+                src='../data.jpg'
                 className='absolute inset-0 h-full w-full object-cover'
               />
             </div>
@@ -19,26 +23,25 @@ const About = () => {
             <div className='lg:py-16'>
               <article className='space-y-4 text-gray-600'>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
+                  We were Founded in 2023, we are dedicated to providing
+                  exceptional Data services to our clients. Our mission is to is
+                  to be the best in our field and to have long-term clients.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
+                  {' '}
+                  As we look to the future, we're committed to staying at the
+                  forefront of technological advancements and evolving industry
+                  trends. Our goal is not just to meet but to exceed the
+                  expectations of our clients, delivering innovative solutions
+                  that drive growth and success.
                 </p>
               </article>
             </div>
           </div>
         </div>
       </section>
+      <div id='footer'></div>
       <svg
         id='visual'
         viewBox='0 0 1440 150'
@@ -46,7 +49,7 @@ const About = () => {
         height='150'
         xmlns='http://www.w3.org/2000/svg'
         version='1.1'
-        className="w-full h-full"
+        className='w-full h-full'
       >
         <rect x='0' y='0' width='1440' height='150' fill='#ced6e1'></rect>
         <path

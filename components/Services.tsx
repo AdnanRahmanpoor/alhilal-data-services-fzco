@@ -1,104 +1,62 @@
+import Image from 'next/image';
+
 const Services = () => {
   return (
     <>
-      <section className='bg-[url(/Wave_2.svg)] bg-cover h-full pb-9'>
+      <section  className='bg-[url(/Wave_2.svg)] bg-cover h-full pb-9'>
         <div className='mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-12 lg:px-8 lg:pb-10 lg:pt-0'>
           <div className='mx-auto max-w-lg text-center'>
             <h2 className='text-3xl font-bold sm:text-4xl text-[#071523]'>
               Our Services
             </h2>
 
-            <p className='mt-4 text-black'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+            <p className='mt-4 text-black font-semibold text-xl'>
+              Discover the efficiency of our specialized data entry services,
+              meticulously crafted to meet the unique demands of your business.
             </p>
           </div>
 
           <div className='mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
-            <div className='block rounded-xl border bg-[#071523] p-8 shadow-xl shadow-black/30 transition hover:border-blue-900 hover:shadow-blue-950/70'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='h-10 w-10 text-blue-500'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  stroke-width='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg>
+            <div className='block rounded-xl border bg-[#071523] p-8 shadow-xl shadow-black/30 transition hover:border-blue-950 hover:shadow-blue-950/70'>
+              <Image src='/enter.gif' alt='enter key' width={50} height={50} />
 
-              <h2 className='mt-4 text-xl font-bold text-white'>Services</h2>
+              <h2 className='mt-4 text-xl font-bold text-white'>Data Entry</h2>
 
-              <p className='mt-1 text-sm text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </div>
-
-            <div className='block rounded-xl border bg-[#071523] p-8 shadow-xl shadow-black/30 transition hover:border-blue-900 hover:shadow-blue-950/70'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='h-10 w-10 text-red-600'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  stroke-width='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg>
-
-              <h2 className='mt-4 text-xl font-bold text-white'>Services</h2>
-
-              <p className='mt-1 text-sm text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+              <p className='mt-3 text-sm text-white'>
+                Quick and accurate data entry solutions, ensuring your
+                information is efficiently organized with precision.
               </p>
             </div>
 
             <div className='block rounded-xl border bg-[#071523] p-8 shadow-xl shadow-black/30 transition hover:border-blue-950 hover:shadow-blue-950/70'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                className='h-10 w-10 text-cyan-500'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-              >
-                <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
-                <path
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  stroke-width='2'
-                  d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
-                />
-              </svg>
+              <Image src='/folder.gif' alt='folder' width={50} height={50} />
 
-              <h2 className='mt-4 text-xl font-bold text-white'>Services</h2>
+              <h2 className='mt-4 text-xl font-bold text-white'>
+                Data Cleanup and Formatting
+              </h2>
 
-              <p className='mt-1 text-sm text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+              <p className='mt-3 text-sm text-white'>
+                Transforming raw data into a structured and organized data.
+              </p>
+            </div>
+
+            <div className='block rounded-xl border bg-[#071523] p-8 shadow-xl shadow-black/30 transition hover:border-blue-950 hover:shadow-blue-950/70'>
+              <Image src='/layers.gif' alt='folder' width={50} height={50} />
+
+              <h2 className='mt-4 text-xl font-bold text-white'>
+                Customized Data Solutions
+              </h2>
+
+              <p className='mt-3 text-sm text-white'>
+                Tailoring data entry services to your specific requirements,
+                ensuring seamless organization and efficient information
+                management.
               </p>
             </div>
           </div>
         </div>
       </section>
+        <div id="features"></div>
       <svg
         id='visual'
         viewBox='0 0 1440 150'

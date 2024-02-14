@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className='text-white-500 transition hover:text-white-500/75'
-                    href='/'
+                    href='/#services'
                   >
                     {' '}
                     Services{' '}
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className='text-white-500 transition hover:text-white-500/75'
-                    href='/'
+                    href='#features'
                   >
                     {' '}
                     Features{' '}
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className='text-white-500 transition hover:text-white-500/75'
-                    href='/'
+                    href='#aboutus'
                   >
                     {' '}
                     About Us{' '}
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className='text-white-500 transition hover:text-white-500/75'
-                    href='/'
+                    href='#footer'
                   >
                     {' '}
                     Contact{' '}

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Reveal } from './Reveal';
 
 const Hero = () => {
   return (
@@ -18,26 +19,36 @@ const Hero = () => {
               </div>
 
               <div className='lg:py-24'>
-                <h2 className='text-3xl font-bold sm:text-4xl'>
-                  Al Hilal Data Services - FZCO
-                </h2>
+                <Reveal>
+                  <h2 className='text-3xl font-bold sm:text-4xl'>
+                    Al Hilal Data Services - FZCO
+                  </h2>
 
-                <p className='mt-4 text-gray-600'>
-                  Random TextRandom TextRandom Text Random Text Random
-                  TextRandom TextRandom TextRandom Text Random TextRandom Text
-                  Random TextRandom Text Random Text Random Text
+                <p className='mt-4 text-gray-400 text-2xl'>
+                  Efficient Data Solutions for Your Business
                 </p>
+                </Reveal>
+
+                <Reveal>
 
                 <Link
                   href='#'
                   className='mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400'
-                >
-                  Get Started
+                  >
+                  Email Us
                 </Link>
+                <Link
+                  href='#'
+                  className='ml-8 mt-8 inline-block rounded bg-green-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400'
+                  >
+                  Whatsapp
+                </Link>
+                  </Reveal>
               </div>
             </div>
           </div>
         </div>
+        <div id='services'></div>
       </section>
       <svg
         id='visual'
